@@ -7,23 +7,42 @@
             <div class="card text-white bg-dark" style="width: 30em">
                 <div class="card-body">
                     <div class="form-group">
-                        <label>Nome</label>
-                        <input type="text" class="form-control" name="name">
+                        <label for="ValidationName">Nome</label>
+                        <input type="text" 
+                            class="form-control" 
+                            id="ValidationName" 
+                            name="name" 
+                            required>
                     </div>
                     <div class="form-group">
-                        <label>Email</label>
-                        <input type="text" class="form-control" name="email">
+                        <label for="ValidationEmail">Email</label>
+                        <input type="text" 
+                            class="form-control" 
+                            id="ValidationEmail" 
+                            name="email" 
+                            required>
                         <div class="form-group">
-                            <label>Telefone</label>
-                            <input type="text" class="form-control" name="telephone">
+                            <label for="ValidationTelephone">Telefone</label>
+                            <input type="text" 
+                            class="form-control" 
+                            id="ValidationTelephone" 
+                            name="telephone">
                         </div>
                         <div class="form-group">
-                            <label>Assunto</label>
-                            <input type="text" class="form-control" name="topic">
+                            <label for="ValidationTopic">Assunto</label>
+                            <input type="text" 
+                                class="form-control" 
+                                id="ValidationTopic" 
+                                name="topic" 
+                                required>
                         </div>
                         <div class="form-group">
                             <label>Mensagem</label>
-                            <textarea type="text" rows="5" class="form-control" name="message">
+                            <textarea type="text" 
+                                rows="5" 
+                                class="form-control" 
+                                name="message" 
+                                required>
                                 
                             </textarea>
                         </div>
