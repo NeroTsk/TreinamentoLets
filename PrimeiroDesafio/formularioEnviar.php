@@ -1,8 +1,8 @@
 <?php include('header.php');
     $name = $_POST['name'];
     $email = $_POST['email'];
-    $telefone = $_POST['telephone'];
-    $assunto = $_POST['topic'];
+    $telephone = $_POST['telephone'];
+    $topic = $_POST['topic'];
     $menssagem = $_POST['message'];
 ?>
 
@@ -16,7 +16,7 @@
             Telefone:
             <p> <?= $telefone ?> </p>
             Assunto:
-            <p> <?= $assunto ?> </p>
+            <p> <?= $topic ?> </p>
             Mensagem:
             <p> <?= $menssagem ?> </p>
         </div>
